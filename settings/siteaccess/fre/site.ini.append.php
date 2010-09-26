@@ -22,10 +22,10 @@ RelatedSiteAccessList[]=admin_archi
 ShowHiddenNodes=false
 
 [DesignSettings]
-SiteDesign=ezflow
+SiteDesign=archichouette
 AdditionalSiteDesignList[]
-AdditionalSiteDesignList[]=archichouette
 AdditionalSiteDesignList[]=html5boilerplate
+AdditionalSiteDesignList[]=ezflow
 AdditionalSiteDesignList[]=ezwebin
 AdditionalSiteDesignList[]=base
 AdditionalSiteDesignList[]=standard
