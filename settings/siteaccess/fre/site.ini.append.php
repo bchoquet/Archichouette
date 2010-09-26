@@ -38,9 +38,6 @@ SiteLanguageList[]
 SiteLanguageList[]=fre-FR
 TextTranslation=enabled
 
-[FileSettings]
-VarDir=var/archichouette
-
 [ContentSettings]
 TranslationList=
 

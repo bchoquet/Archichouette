@@ -31,9 +31,6 @@ ShowUntranslatedObjects=enabled
 SiteLanguageList[]=fre-FR
 TextTranslation=enabled
 
-[FileSettings]
-VarDir=var/archichouette
-
 [ContentSettings]
 CachedViewPreferences[full]=admin_navigation_content=1;admin_children_viewmode=list;admin_list_limit=1
 TranslationList=
