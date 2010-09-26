@@ -1,4 +1,6 @@
 <?php /* #?ini charset="utf-8"?
+[ExtensionSettings]
+DesignExtensions[]=archichouette
 
 [StylesheetSettings]
 SiteCSS=var/storage/packages/eZ-systems/ezflow_design/files/default/file/site-colors.css
