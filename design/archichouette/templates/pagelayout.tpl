@@ -45,15 +45,12 @@
 	{/if}
 		{/cache-block}
 		{/cache-block}
+		<div id="main">
 		{$module_result.content}
+		</div>
 		{cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
 	
-	<aside id="sidebarRight">
-		<!-- evenements -->
-		<!-- deguise la chouette -->
-		<!-- facebook -->
-	</aside>
-    
+		{include uri='design:sidebar.tpl' current_node=$current_node}
     <footer>
 
 		{include uri='design:includes/footer.tpl' current_node=$current_node html5boilerplate_settings=$html5boilerplate_settings}
