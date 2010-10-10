@@ -50,7 +50,7 @@
 		</div>
 		{cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
 	
-		{include uri='design:sidebar.tpl' current_node=$current_node}
+		{include uri='design:includes/sidebar.tpl' current_node=$current_node}
     <footer>
 
 		{include uri='design:includes/footer.tpl' current_node=$current_node html5boilerplate_settings=$html5boilerplate_settings}
