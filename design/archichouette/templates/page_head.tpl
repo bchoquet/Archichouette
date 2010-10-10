@@ -81,5 +81,6 @@
 	{else}
 		<meta name="{$key|wash}" content="{$item|wash}" />
 	{/if}
+	{/foreach}
 {/if}
 {include uri="design:ezcanonical.tpl"}
