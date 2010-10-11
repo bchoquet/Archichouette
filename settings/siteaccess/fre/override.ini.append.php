@@ -1,5 +1,11 @@
 <?php /* #?ini charset="utf-8"?
 
+[full_jeu]
+Source=node/view/full.tpl
+MatchFile=full/jeu.tpl
+Subdir=templates
+Match[class_identifier]=jeu
+
 [block_demo_block]
 Source=block/view/view.tpl
 MatchFile=block/demo_block.tpl
