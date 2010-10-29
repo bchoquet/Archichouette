@@ -1,0 +1,141 @@
+html{
+	background: #f2f0e4 url(../images/bg.png);
+}
+
+body{
+	width: 960px;
+	margin: 0 auto;	
+	background: url(../images/bg-header.png) no-repeat;
+}
+
+
+
+
+/**
+ * HEADER
+**/
+header{
+	height: 230px;
+	position: relative;
+}
+
+header #logo{
+	position: absolute;
+	left: 10px;
+	bottom: -35px;
+	z-index: 100;	
+}
+
+header #mainNav{
+	position: absolute;
+	bottom: 0;
+	left: 300px;	
+}
+
+
+header #mainNav li{
+	display: block;
+	float: left;
+	margin-right: 25px;
+}
+
+header #mainNav li a{
+	background-color: #000;
+	font-family: AllerDisplayRegular, sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding: 2px 10px;
+	text-decoration: none;
+}
+
+header #mainNav li a:hover{
+	background-color: #83b809;
+	color: #fff;
+}
+
+
+
+
+
+
+/**
+ * MAIN
+**/
+#main{
+	float: left;
+	width: 710px;
+	padding: 35px 25px;
+	background-color: #fff;	
+	-moz-box-shadow: #999 0 5px 5px;
+	-webkit-box-shadow: #999 0 5px 5px;
+	box-shadow: #999 0 5px 5px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+/**
+ * SIDEBAR
+**/
+#sidebarRight{
+	float: right;
+	width: 200px;	
+	margin-bottom: 15px;
+}
+
+#sidebarRight section{
+	background-color: #000;
+	color: #fff;
+	padding: 15px;	
+	margin: 0 0 30px 0;
+	position: relative;
+}
+
+#sidebarRight section a{
+	color: #fff;
+}
+
+#sidebarRight section h1{
+	font-family: AllerDisplayRegular, sans-serif;
+	font-size: 20px;
+	color: #000;
+	background: url(../images/bg-bulle.png) no-repeat;
+	padding: 0 0 20px 15px;
+	text-align: left;
+	margin: -35px 0 0 0;
+}
+
+#sidebarRight section ul{
+	margin: 0;
+	padding: 0;	
+}
+
+#sidebarRight section li{
+	margin: 10px 0;	
+}
+
+
+#sidebarRight section a.infos{
+	padding-left: 10px;	
+	float: right;
+}
+
+#sidebarRight section.class-event-calendar{
+	background-color: #bdb989;		
+}
+
+
+
+
+
+/**
+ * FOOTER
+**/
+footer{
+	clear: both;	
+	margin: 15px 0;
+}

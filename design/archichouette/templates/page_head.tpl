@@ -1,4 +1,4 @@
-{def 
+{def
 	$title_path = array()
 	$site_title = ''
 	$meta = metadata( $module_result.node_id )
@@ -9,11 +9,11 @@
 {else}
 
 	{foreach $module_result.path as $path}
-	
+
 		{set $title_path = $title_path|prepend($path.text)}
-	
+
 	{/foreach}
-	
+
 	{set $site_title = concat($title_path|implode(' / '),' - ',$site.title|wash)}
 
 {/if}
@@ -30,26 +30,13 @@
 {/if}
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 <link rel="shortcut icon" href="/favicon.ico">
-
-{if $load_css_file_list}
-  {ezcss_load( array( 'core.css',
-                      'debug.css',
-                      'pagelayout.css',
-                      'content.css',
+{* 'core.css','pagelayout.css','content.css',*}
+  {ezcss_load( array('debug.css',
                       'websitetoolbar.css',
                       ezini( 'StylesheetSettings', 'CSSFileList', 'design.ini' ),
                       ezini( 'StylesheetSettings', 'FrontendCSSFileList', 'design.ini' ) ))}
-{else}
-  {ezcss_load( array( 'core.css',
-                      'debug.css',
-                      'pagelayout.css',
-                      'content.css',
-                      'websitetoolbar.css' ))}
-{/if}
 
 <link rel="apple-touch-icon" href={"apple-touch-icon.png"|ezdesign}>
-<link rel="stylesheet" href={"stylesheets/style.css"|ezdesign}>
-<link rel="stylesheet" media="handheld" href={"stylesheets/handheld.css"|ezdesign}>
 <script src={"javascript/modernizr-1.5.min.js"|ezdesign}></script>
 
 {* check if we need a http-equiv refresh *}

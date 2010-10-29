@@ -33,7 +33,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
 
     <header>
-    
+
 		{cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key )}
 
 		{include uri='design:includes/header.tpl' current_node=$current_node html5boilerplate_settings=$html5boilerplate_settings}
@@ -45,11 +45,11 @@
 	{/if}
 		{/cache-block}
 		{/cache-block}
-		<div id="main">
+		<div id="main" class="clearfix rounded10">
 		{$module_result.content}
 		</div>
 		{cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
-	
+
 		{include uri='design:includes/sidebar.tpl' current_node=$current_node}
     <footer>
 
@@ -60,7 +60,7 @@
 
 {ezscript_require(array( 'ezjsc::jquery', 'ezjsc::jqueryio') )}
 
-{ezscript_load( array('plugins.js','script.js','profiling/yahoo-profiling.min.js', 'profiling/config.js') )}  
+{ezscript_load( array('plugins.js','script.js','profiling/yahoo-profiling.min.js', 'profiling/config.js') )}
 
   <!--[if lt IE 7 ]>
     <script src={"javascript/dd_belatedpng.js"|ezdesign}></script>
@@ -70,7 +70,7 @@
 
 {literal}
   <script>
-   var _gaq = [['_setAccount', '{/literal}{$html5boilerplate_settings.GoogleAnalyticsKey}{literal}'], ['_trackPageview']]; 
+   var _gaq = [['_setAccount', '{/literal}{$html5boilerplate_settings.GoogleAnalyticsKey}{literal}'], ['_trackPageview']];
    (function(d, t) {
     var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
     g.async = true; g.src = '//www.google-analytics.com/ga.js'; s.parentNode.insertBefore(g, s);
@@ -83,6 +83,6 @@
 {/cache-block}
 
 <div id="debug"><!--DEBUG_REPORT--></div>
-	
+
 </body>
 </html>

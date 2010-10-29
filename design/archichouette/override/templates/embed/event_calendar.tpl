@@ -1,4 +1,4 @@
-﻿<section class="content-view-embed class-event-calendar">
+﻿<section class="content-view-embed class-event-calendar clearfix rounded-rb">
 {def
 
     $event_node    = $object.main_node
@@ -20,14 +20,9 @@
 
     $first_ts = makedate($temp_month, $temp_day, $temp_year)
 
-    $last_ts = makedate($temp_month, $days, $temp_year)
+    $last_ts = $first_ts|sum(2592000)
 }
 
-{if ne($temp_month, 12)}
-    {set $last_ts = makedate( $temp_month|sum( 1 ), 1, $temp_year )}
-{else}
-    {set $last_ts = makedate( 1, 1, $temp_year|sum(1) )}
-{/if}
 
 {def    $events = fetch( 'content', 'list', hash(
             'parent_node_id', $event_node_id,
@@ -54,5 +49,6 @@
 	</a></li>
 {/foreach}
 </ul>
+<a href={$event_node_id|ezurl} class="rounded10-tbl infos">Tous les évènements</a>
 </section>
 {undef}
