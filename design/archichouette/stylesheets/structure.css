@@ -113,6 +113,29 @@ section.comments form{
 .class-comment .attribute-message p{
 	margin: 0.5em 0;
 }
+
+#breadcrumbs{
+	margin: 1em 0;
+	padding: 0;
+	list-style-type: none;	
+}
+
+#breadcrumbs li{
+	display: inline;
+	margin-right: 0.5em;	
+}
+
+#breadcrumbs a{
+	color: #000;	
+	font-family: AllerDisplayRegular, sans-serif;
+	text-decoration: none;
+}
+
+#breadcrumbs .active{
+	color: #8fbc17;
+	font-weight: bold;
+}
+
 /**
  * SIDEBAR
 **/
