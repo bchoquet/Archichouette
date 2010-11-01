@@ -24,7 +24,7 @@ Filters[]=geometry/scaledownonly=100;160
 [medium]
 Reference=
 Filters[]
-Filters[]=geometry/scaledownonly=200;290
+Filters[]=geometry/scaledownonly=395;400
 
 [large]
 Reference=
