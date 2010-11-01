@@ -1,0 +1,19 @@
+/**
+ * Reprise de certains éléments de design/archichouette/stylesheets/style.css
+ * pour l'online editor
+**/
+@font-face {
+	font-family: 'AllerDisplayRegular';
+	src: url('../../archichouette/stylesheets/allerdisplay-webfont.eot');
+	src: local('☺'), url('../../archichouette/stylesheets/allerdisplay-webfont.woff') format('woff'), url('../../archichouette/stylesheets/allerdisplay-webfont.ttf') format('truetype'), url('../../archichouette/stylesheets/allerdisplay-webfont.svg#webfontQtv3zFIy') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: AllerRegular, sans-serif;	
+}
+
+.vert{
+	color: #8fbc17;
+}
