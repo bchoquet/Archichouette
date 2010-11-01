@@ -1,39 +1,49 @@
 {set-block scope=root variable=cache_ttl}600{/set-block}
 {* Event - Full view *}
 <article class="content-view-full class-event">
-    <div class="attribute-header">
+
+	{if not(empty($node.object.data_map.visuels.content.relation_list))}
+    <div class="attribute-visuels">
+    	{foreach $node.object.data_map.visuels.content.relation_list as $visuel}
+    		{def $visuelObj = fetch('content', 'object', hash('object_id', $visuel.contentobject_id))}
+    		{content_view_gui content_object=$visuelObj view=embed object_parameters=hash('size', 'medium')}
+			{*attribute_view_gui attribute=$node.object.data_map.visuels*}
+			{undef}
+		{/foreach}
+    </div>
+    {/if}
+
+
+	<div class="event-contents">
     {if $node.data_map.title.has_content}
         <h1>{$node.data_map.title.content|wash()}</h1>
     {else}
         <h1>{$node.name|wash()}</h1>
     {/if}
-    </div>
-    
-    <div class="attribute-byline">
-    <p>
-    {if $node.object.data_map.category.has_content}
-    <span class="ezagenda_keyword">
-    {"Category"|i18n("design/ezwebin/full/event")}:
-    {attribute_view_gui attribute=$node.object.data_map.category}
-    </span>
-    {/if}
-    
-    <span class="ezagenda_date">{$node.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
-    {if $node.object.data_map.to_time.has_content}
-          - {$node.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
-    {/if}
-    </span>
-    </p>
-    </div>
 
-    {* if $node.object.data_map.image.content}
-         <div class="attribute-image">
-             {attribute_view_gui attribute=$node.object.data_map.image align=center image_class=imagelarge}
-        </div>
-    {/if *}
+    <p class="attribute-byline">
+	    {if $node.object.data_map.category.has_content}
+	    <span class="ezagenda_keyword">
+	    {"Category"|i18n("design/ezwebin/full/event")}:
+	    {attribute_view_gui attribute=$node.object.data_map.category}
+	    </span>
+	    {/if}
+
+	    <span class="ezagenda_date">{$node.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
+	    {if $node.object.data_map.to_time.has_content}
+	          - {$node.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
+	    {/if}
+	    </span>
+
+	    {if $node.object.data_map.lieu.has_content}
+	    <br/>
+	    <span class="ezagenda_lieu">{$node.object.data_map.lieu.content|wash()}</span>
+	    {/if}
+    </p>
+
 
     {if $node.object.data_map.text.has_content}
-        <div class="attribute-short">{attribute_view_gui attribute=$node.object.data_map.text}</div>
+        <div class="attribute-text">{attribute_view_gui attribute=$node.object.data_map.text}</div>
     {/if}
 
 
@@ -42,7 +52,10 @@
         <a href={$node.object.data_map.url.content|ezurl}>{$node.object.data_map.url.data_text|wash()}</a>
         </p>
     {/if *}
-	
+
+	</div>
+
+
 	{if and( is_unset( $versionview_mode ), is_set( $node.data_map.enable_comments ), $node.data_map.enable_comments.data_int )}
 		<section class="comments">
             <h1>{"Comments"|i18n("design/ezwebin/full/article")}</h1>
