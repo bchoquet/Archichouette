@@ -1,0 +1,19 @@
+.class-event .attribute-visuels{
+	float: left;
+	width: 395px;
+	margin-bottom: 20px;
+}
+
+.class-event .event-contents{
+	float: right;
+	width: 295px;
+}
+
+.class-event .comments{
+	clear: both;
+	width: 395px;
+}
+
+.class-event .attribute-infos{
+	font-weight: bold;	
+}

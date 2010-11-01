@@ -1,6 +1,6 @@
 {set-block scope=root variable=cache_ttl}600{/set-block}
 {* Event - Full view *}
-<article class="content-view-full class-event">
+<article class="content-view-full class-event clearfix">
 
 	{if not(empty($node.object.data_map.visuels.content.relation_list))}
     <div class="attribute-visuels">
@@ -21,7 +21,7 @@
         <h1>{$node.name|wash()}</h1>
     {/if}
 
-    <p class="attribute-byline">
+    <p class="attribute-infos vert">
 	    {if $node.object.data_map.category.has_content}
 	    <span class="ezagenda_keyword">
 	    {"Category"|i18n("design/ezwebin/full/event")}:
@@ -72,7 +72,7 @@
 				<input type="hidden" name="ClassIdentifier" value="comment" />
 				<input type="hidden" name="NodeID" value="{$node.object.main_node.node_id}" />
 				<input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
-				<input class="button new_comment" type="submit" name="NewButton" value="{'New comment'|i18n( 'design/ezwebin/full/article' )}" />
+				<input class="button new_comment rounded10" type="submit" name="NewButton" value="{'New comment'|i18n( 'design/ezwebin/full/article' )}" />
 				</form>
 			{else}
 				{if ezmodule( 'user/register' )}

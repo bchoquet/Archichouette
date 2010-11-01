@@ -8,7 +8,10 @@ body{
 	background: url(../images/bg-header.png) no-repeat;
 }
 
-
+.debug-toolbar{
+	position: relative;
+	padding-bottom: 20px;	
+}
 
 
 /**
@@ -75,9 +78,41 @@ header #mainNav li a:hover{
 
 
 
+/**
+ * Commentaires
+**/
+section.comments{
+	position: relative;
+	padding-bottom: 30px;	
+}
 
+section.comments h1{
+	font-size: 16px;
+	background: url(../images/bg-titre-commentaires.gif) no-repeat;
+	padding: 5px 10px 10px 10px;	
+}
 
+section.comments form{
+	margin-top: 2em;	
+}
 
+.class-comment{
+	color: #646464;
+	margin: 2em 0;	
+}
+
+.class-comment h2{
+	margin: 0;
+}
+
+.class-comment .attribute-infos{
+	font-weight: bold;
+	margin-bottom: 0.5em;	
+}
+
+.class-comment .attribute-message p{
+	margin: 0.5em 0;
+}
 /**
  * SIDEBAR
 **/

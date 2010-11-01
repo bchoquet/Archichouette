@@ -16,6 +16,7 @@
 
 body{
 	font-family: AllerRegular, sans-serif;	
+	color: #000;
 }
 
 p{
@@ -26,6 +27,12 @@ ul li{
 	list-style-type: none;		
 	background-image: none;
 	padding: 0;
+}
+
+h1{
+	font-family: AllerDisplayRegular, sans-serif;
+	font-size: 24px;
+	line-height: 20px;
 }
 
 .rounded{
@@ -83,16 +90,17 @@ ul li{
 	border-radius: 10px 0 5px 10px;
 }
 
-a.infos{
+a.infos, input.button{
 	color: #fff;
 	background-color: #000;
 	font-size: 11px;
 	padding: 2px 5px;
 	font-weight: bold;
 	text-decoration: none;
+	border: 0;
 	position: absolute;
 	bottom: 0;
-	right: 0;
+	right: 0;	
 }
 
 .vert{
