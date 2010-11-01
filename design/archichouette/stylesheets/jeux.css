@@ -1,0 +1,76 @@
+.class-jeu .attribute-visuels{
+	float: left;
+	width: 395px;
+	margin-bottom: 20px;
+}
+
+.class-jeu .jeu-contents{
+	float: right;
+	width: 295px;
+}
+
+.class-jeu .comments{
+	clear: both;
+	width: 395px;
+}
+
+.class-jeu .caracteristiques{
+	background-color: #e9ebd9;
+	padding: 15px;
+}
+
+.class-jeu .caracteristiques p{
+	margin: 0.5em 0;	
+	font-weight: bold;
+}
+
+.class-jeu .caracteristiques .titre{
+	color: #8fbc17;	
+	width: 100px;
+}
+
+.class-jeu .categorie{
+	float: left;
+	padding: 5px 10px;	
+	font-family: AllerDisplayregular, sans-serif;
+	font-size: 16px;
+	margin-bottom: 1em;
+	color: #fff;
+}
+
+.class-jeu h1{
+	clear: left;	
+}
+
+
+/**
+ * Catégories
+**/ 
+.cat-petits .categorie{
+	background-color: #23a0d0;
+}
+
+.cat-famille .categorie{
+	background-color: #8fbc17;
+}
+
+.cat-ambiance .categorie{
+	background-color: #561ea1;
+}
+
+.cat-gds-joueurs .categorie{
+	background-color: #000000;
+}
+
+.cat-duel .categorie{
+	background-color: #d60c02;
+}
+
+.cat-casse-tete .categorie{
+	background-color: #f8cd03;
+}
+
+.cat-coquin .categorie{
+	background-color: #ff0190;
+}
+
