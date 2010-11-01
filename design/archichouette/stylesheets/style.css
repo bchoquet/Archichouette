@@ -35,7 +35,7 @@ h1{
 	line-height: 20px;
 }
 
-.rounded{
+img, .rounded{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -103,6 +103,43 @@ a.infos, input.button{
 	right: 0;	
 }
 
+
+/**
+ * STYLES OE
+**/
 .vert{
 	color: #8fbc17;
 }
+
+
+/**
+ * Slideshow
+**/
+.slideshow{
+	position: relative;	
+}
+
+.slideshow .prev-arrow{
+	display: block;
+	width: 39px;
+	height: 53px;
+	background: url(../images/fleche-gauche.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -26px;
+	z-index: 10;
+}
+
+.slideshow .next-arrow{
+	display: block;
+	width: 37px;
+	height: 53px;
+	background: url(../images/fleche-droite.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -26px;
+	z-index: 10;
+}
+
