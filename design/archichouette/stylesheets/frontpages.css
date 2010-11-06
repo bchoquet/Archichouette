@@ -1,0 +1,18 @@
+.zone-layout-homeetals .leftcol{
+	float: left;
+	width: 160px;	
+}
+
+.listeFamilles{
+	margin: 0;
+	padding: 0;	
+}
+
+.listeFamilles li{
+	margin-bottom: 5px;	
+}
+
+.zone-layout-homeetals .rightcol{
+	float: right;
+	width: 535px;	
+}

@@ -60,9 +60,6 @@
 	min-height: 150px;	
 }
 
-.class-categorie .listeJeux li a{
-	text-decoration: none;	
-}
 .class-categorie .listeJeux li .content-view-embed{
 	min-height: 80px;	
 }
@@ -127,6 +124,10 @@
 	color: #23a0d0;;
 }
 
+.cat-petits .pastille .title{
+	background-color: #23a0d0;		
+}
+
 
 .cat-famille .categorie{
 	background-color: #8fbc17;
@@ -135,6 +136,10 @@
 .cat-famille .categorie-exemple h3{
 	border-color: #8fbc17;
 	color: #8fbc17;;
+}
+
+.cat-famille .pastille .title{
+	background-color: #8fbc17;		
 }
 
 
@@ -147,6 +152,10 @@
 	color: #561ea1;;
 }
 
+.cat-ambiance .pastille .title{
+	background-color: #561ea1;		
+}
+
 
 .cat-gds-joueurs .categorie{
 	background-color: #000000;
@@ -155,6 +164,10 @@
 .cat-gds-joueurs .categorie-exemple h3{
 	border-color: #000000;
 	color: #000000;;
+}
+
+.cat-gds-joueurs .pastille .title{
+	background-color: #000000;		
 }
 
 
@@ -167,6 +180,10 @@
 	color: #d60c02;;
 }
 
+.cat-duel .pastille .title{
+	background-color: #d60c02;		
+}
+
 
 .cat-casse-tete .categorie{
 	background-color: #f8cd03;
@@ -177,6 +194,10 @@
 	color: #f8cd03;;
 }
 
+.cat-casse-tete .pastille .title{
+	background-color: #f8cd03;		
+}
+
 
 .cat-coquin .categorie{
 	background-color: #ff0190;
@@ -185,5 +206,9 @@
 .cat-coquin .categorie-exemple h3{
 	border-color: #ff0190;
 	color: #ff0190;;
+}
+
+.cat-coquin .pastille .title{
+	background-color: #ff0190;		
 }
 
