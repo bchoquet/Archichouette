@@ -103,6 +103,33 @@ a.infos, input.button{
 	right: 0;	
 }
 
+.pastille{
+	display: block;
+	background: #f2f0e4;
+	text-align: center;
+	-moz-box-shadow: #999 0 2px 2px;
+	-webkit-box-shadow: #999 0 2px 2px;
+	box-shadow: #999 0 2px 2px;
+}
+
+.pastille .title{
+	font-family: AllerDisplayRegular, sans-serif;
+	color: #fff;
+	background-color: #000;
+	margin: 0; 	
+	padding: 5px;
+	text-align: right;
+}
+
+.block{
+	border-left: 1px #bababa solid;
+	border-bottom: 3px #bababa solid;
+}
+
+.pastille .block{
+	clear: both;
+}
+
 
 /**
  * STYLES OE

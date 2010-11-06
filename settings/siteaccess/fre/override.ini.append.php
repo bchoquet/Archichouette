@@ -1,8 +1,25 @@
 <?php /* #?ini charset="utf-8"?
+[full_categorie]
+Source=node/view/full.tpl
+MatchFile=full/categorie.tpl
+Subdir=templates
+Match[class_identifier]=categorie
+
+[line_categorie]
+Source=node/view/line.tpl
+MatchFile=line/categorie.tpl
+Subdir=templates
+Match[class_identifier]=categorie
 
 [full_jeu]
 Source=node/view/full.tpl
 MatchFile=full/jeu.tpl
+Subdir=templates
+Match[class_identifier]=jeu
+
+[line_jeu]
+Source=node/view/line.tpl
+MatchFile=line/jeu.tpl
 Subdir=templates
 Match[class_identifier]=jeu
 

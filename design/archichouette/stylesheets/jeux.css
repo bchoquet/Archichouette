@@ -1,3 +1,75 @@
+.class-jeu .categorie, .class-categorie .categorie{
+	float: left;
+	padding: 5px 10px;	
+	font-family: AllerDisplayregular, sans-serif;
+	font-size: 16px;
+	margin-bottom: 1em;
+	color: #fff;
+}
+
+
+/**
+ * FICHE CATEGORIE
+**/
+.class-categorie .categorie-exemple{
+	float: right;
+	width: 395px;
+	margin-bottom: 20px;
+	margin-top: 55px;
+	position: relative; 
+}
+
+.class-categorie .categorie-contents{
+	float: left;
+	width: 295px;
+	margin-bottom: 20px;
+}
+
+.class-categorie h2{
+	font-family: AllerDisplayRegular, sans-serif;
+	font-size: 24px;	
+	clear: left;
+}
+
+.class-categorie .categorie-exemple h3{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	font-family: AllerDisplayRegular, sans-serif;
+	font-size: 30px;	
+	border: 2px #000 solid;
+	padding: 5px 20px;
+	background-color: #fff;
+	-moz-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+	transform:rotate(-10deg);
+}
+
+.class-categorie .listeJeux{
+	clear: both;	
+	margin: 0;
+	padding: 0;
+}
+
+.class-categorie .listeJeux li{
+	display: block;
+	float: left;
+	width: 160px;	
+	margin-right: 17px;
+	min-height: 150px;	
+}
+
+.class-categorie .listeJeux li a{
+	text-decoration: none;	
+}
+.class-categorie .listeJeux li .content-view-embed{
+	min-height: 80px;	
+}
+
+/**
+ * FICHE JEU
+**/
 .class-jeu .attribute-visuels{
 	float: left;
 	width: 395px;
@@ -50,27 +122,68 @@
 	background-color: #23a0d0;
 }
 
+.cat-petits .categorie-exemple h3{
+	border-color: #23a0d0;
+	color: #23a0d0;;
+}
+
+
 .cat-famille .categorie{
 	background-color: #8fbc17;
 }
+
+.cat-famille .categorie-exemple h3{
+	border-color: #8fbc17;
+	color: #8fbc17;;
+}
+
 
 .cat-ambiance .categorie{
 	background-color: #561ea1;
 }
 
+.cat-ambiance .categorie-exemple h3{
+	border-color: #561ea1;
+	color: #561ea1;;
+}
+
+
 .cat-gds-joueurs .categorie{
 	background-color: #000000;
 }
+
+.cat-gds-joueurs .categorie-exemple h3{
+	border-color: #000000;
+	color: #000000;;
+}
+
 
 .cat-duel .categorie{
 	background-color: #d60c02;
 }
 
+.cat-duel .categorie-exemple h3{
+	border-color: #d60c02;
+	color: #d60c02;;
+}
+
+
 .cat-casse-tete .categorie{
 	background-color: #f8cd03;
 }
 
+.cat-casse-tete .categorie-exemple h3{
+	border-color: #f8cd03;
+	color: #f8cd03;;
+}
+
+
 .cat-coquin .categorie{
 	background-color: #ff0190;
+}
+
+.cat-coquin .categorie-exemple h3{
+	border-color: #ff0190;
+	color: #ff0190;;
 }
 

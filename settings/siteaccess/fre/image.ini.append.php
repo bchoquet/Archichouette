@@ -19,7 +19,7 @@ AliasList[]=billboard
 [small]
 Reference=
 Filters[]
-Filters[]=geometry/scaledownonly=100;160
+Filters[]=geometry/scaledownonly=160;80
 
 [medium]
 Reference=
