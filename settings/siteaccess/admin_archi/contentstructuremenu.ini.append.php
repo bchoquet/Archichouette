@@ -11,5 +11,6 @@ ShowClasses[]=frontpage
 ShowClasses[]=forums
 ShowClasses[]=event
 ShowClasses[]=jeu
+ShowClasses[]=categorie
 
 */ ?>
