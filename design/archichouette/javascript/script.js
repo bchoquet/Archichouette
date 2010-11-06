@@ -14,4 +14,24 @@ jQuery(function(){
 							});
 	});
 	
+	
+	//chargement de la google map
+	if(GBrowserIsCompatible && GBrowserIsCompatible() && window.GMapPOIs){
+		var i, j, pois, mapId, map, geocoder;
+		for(i in window.GMapPOIs){
+			pois = window.GMapPOIs[i];
+			mapId = 'map-container-' + i.substr(3);
+			map = new GMap2(document.getElementById(mapId));
+            geocoder = new GClientGeocoder();
+            for(j=0; j < pois.length; j++){
+	            geocoder.getLatLng(pois[j], function(point) {
+	                if (point) {
+	                    map.setCenter(point, 16);
+	                    var marker = new GMarker(point);
+	                    map.addOverlay(marker);
+	                }
+	            });
+            }
+		}
+	}
 });

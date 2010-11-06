@@ -60,7 +60,7 @@
 
 {ezscript_require(array( 'ezjsc::jquery', 'ezjsc::jqueryio') )}
 
-{ezscript_load( array('plugins.js','script.js','profiling/yahoo-profiling.min.js', 'profiling/config.js') )}
+{ezscript_load( array('plugins.js','script.js') )}
 
   <!--[if lt IE 7 ]>
     <script src={"javascript/dd_belatedpng.js"|ezdesign}></script>
