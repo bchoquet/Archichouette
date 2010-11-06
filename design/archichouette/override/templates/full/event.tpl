@@ -2,15 +2,7 @@
 {* Event - Full view *}
 <article class="content-view-full class-event clearfix">
 
-	<ul id="breadcrumbs">
-	{debug-log var=$node.path msg=Path}
-	{foreach $node.path as $path_elem}
-		{if $path_elem.node_id|ne(2)}
-		<li><a href={$path_elem.url_alias|ezurl()}>&gt; {$path_elem.name|wash()}</a>
-		{/if}
-	{/foreach}
-		<li class="active">&gt; {$node.name|wash()}</li>
-	</ul>
+	{include uri="design:includes/breadcrumbs.tpl" node=$node}
 
 
 	{if not(empty($node.object.data_map.visuels.content.relation_list))}
