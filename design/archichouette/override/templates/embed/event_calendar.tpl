@@ -1,5 +1,4 @@
-﻿<section class="content-view-embed class-event-calendar clearfix rounded-rb">
-{def
+﻿{def
 
     $event_node    = $object.main_node
     $event_node_id = $object.main_node_id
@@ -37,6 +36,8 @@
                 ))
 
 }
+{if $events|count()}
+<section class="content-view-embed class-event-calendar clearfix rounded-rb">
 <h1>{$object.name|wash}</h1>
 <ul>
 {foreach $events as $event}
@@ -51,4 +52,5 @@
 </ul>
 <a href={$event_node_id|ezurl} class="rounded10-tbl infos">Tous les évènements</a>
 </section>
+{/if}
 {undef}
