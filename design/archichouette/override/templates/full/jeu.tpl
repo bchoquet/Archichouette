@@ -3,13 +3,12 @@
 <article class="content-view-full class-jeu cat-{ezini('CategoriesJeu', $cat.node_id, 'archichouette.ini')}">
 	{include uri="design:includes/breadcrumbs.tpl" node=$node}
 
-	{if not(empty($node.object.data_map.visuels.content.relation_list))}
+	{if $node.object.data_map.visuels.content.relation_list|count()}
     <div class="attribute-visuels slideshow">
     	<div class="slideshow-contents">
     	{foreach $node.object.data_map.visuels.content.relation_list as $visuel}
     		{def $visuelObj = fetch('content', 'object', hash('object_id', $visuel.contentobject_id))}
     		{content_view_gui content_object=$visuelObj view=embed object_parameters=hash('size', 'medium')}
-			{*attribute_view_gui attribute=$node.object.data_map.visuels*}
 			{undef $visuelObj}
 		{/foreach}
 		</div>

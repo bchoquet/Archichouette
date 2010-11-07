@@ -15,6 +15,9 @@ AliasList[]=rss
 AliasList[]=logo
 AliasList[]=infoboximage
 AliasList[]=billboard
+AliasList[]=block_home
+AliasList[]=block_item_home
+
 
 [small]
 Reference=
@@ -29,7 +32,18 @@ Filters[]=geometry/scaledownonly=395;400
 [large]
 Reference=
 Filters[]
-Filters[]=geometry/scaledownonly=360;440
+Filters[]=geometry/scaledownonly=665;325
+
+[block_home]
+Reference=
+Filters[]
+Filters[]=geometry/scaledownonly=535;325
+
+[block_item_home]
+Reference=
+Filters[]
+Filters[]=geometry/scaledownonly=300;200
+
 
 [rss]
 Reference=
@@ -39,7 +53,7 @@ Filters[]=geometry/scale=88;31
 [logo]
 Reference=
 Filters[]
-Filters[]=geometry/scaleheight=36
+Filters[]=geometry/scaleheight=50
 
 [listitem]
 Reference=
