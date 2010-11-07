@@ -2,9 +2,9 @@
      $location = $block.custom_attributes.location}
 
 
-<h1>{$block.name|wash()}</h1>
+<h1 class="title rounded-trb">{$block.name|wash()}</h1>
 
-<div id="map-container-{$block.id}" class="map-container rounded"></div>
+<div id="map-container-{$block.id}" class="map-container rounded block-contents-unbordered"></div>
 
 {*
     Do not load GMap API if key is empty.

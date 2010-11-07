@@ -2,9 +2,9 @@
 
 <!-- BLOCK CONTENT: START -->
 {if $block.name}
-<h1>{$block.name|wash()}</h1>
+<h1 class="title rounded-trb">{$block.name|wash()}</h1>
 {/if}
-<ul>
+<ul class="block-contents rounded-bl">
 {foreach $valid_nodes as $valid_node}
 	<li>{node_view_gui view='block_item' image_class='block2items1' content_node=$valid_node}</li>
 {/foreach}

@@ -1,6 +1,6 @@
 {* Categorie - Full view *}
 <article class="content-view-full class-categorie cat-{ezini('CategoriesJeu', $node.node_id, 'archichouette.ini')} clearfix">
-	
+
 	<div class="categorie-contents">
 		{include uri="design:includes/breadcrumbs.tpl" node=$node}
 		<h1 class="categorie rounded-trb">{$node.data_map.name.content|wash}</h1>
@@ -10,14 +10,14 @@
 		{/if}
 	</div>
 	{if and($node.data_map.jeu_exemple.has_content, $node.data_map.jeu_exemple.content.data_map.visuels.content.relation_list|count())}
-	<div class="categorie-exemple rounded-bl block">
+	<div class="categorie-exemple rounded-bl block-contents">
 		<h3 class="rounded">Exemple</h3>
    		{def $visuelObj = fetch('content', 'object', hash('object_id', $node.data_map.jeu_exemple.content.data_map.visuels.content.relation_list.0.contentobject_id))}
 		{content_view_gui content_object=$visuelObj view=embed object_parameters=hash('size', 'medium')}
 		{undef $visuelObj}
 	</div>
 	{/if}
-	
+
 	{if $node.data_map.show_children}
 		{def $jeux = fetch('content', 'list', hash(
 			'parent_node_id', $node.node_id,

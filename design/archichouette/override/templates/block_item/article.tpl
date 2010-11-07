@@ -1,4 +1,5 @@
 {* Article - Full view *}
+<div>
 <h2>{$node.data_map.title.content|wash()}</h2>
 
         {if eq( ezini( 'article', 'ImageInFullView', 'content.ini' ), 'enabled' )}
@@ -28,4 +29,4 @@
                 {attribute_view_gui attribute=$node.data_map.body}
             </div>
         {/if}
-
+</div>

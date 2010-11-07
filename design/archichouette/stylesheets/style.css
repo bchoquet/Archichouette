@@ -90,7 +90,7 @@ img, .rounded{
 	border-radius: 10px 0 5px 10px;
 }
 
-a.infos, input.button{
+a.infos, input.button, article span.infos{
 	color: #fff;
 	background-color: #000;
 	font-size: 11px;
@@ -124,11 +124,38 @@ a.infos, input.button{
 }
 
 .block{
+	position: relative;	
+}
+
+.block .title{
+	float: left;
+	font-family: AllerBold, Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 18px;
+	background-color: #000;
+	margin: 5px 0 0 1px;
+	padding: 5px;
+}
+
+ul.block-contents{
+	margin: 0;
+	padding: 0;	
+}
+
+.block .block-contents, .block .block-contents-unbordered{
+	clear: both;
+}
+
+.block-contents{
 	border-left: 1px #bababa solid;
 	border-bottom: 3px #bababa solid;
 }
 
-.pastille .block{
+.block .block-contents{
+	padding: 10px;	
+}
+
+.pastille .block-contents{
 	clear: both;
 }
 
