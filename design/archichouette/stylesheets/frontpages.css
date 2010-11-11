@@ -37,6 +37,9 @@
 }
 
 
+/**
+ * BOUTIQUE
+**/
 .zone-layout-boutique{
 	padding: 0 22px;	
 }
@@ -84,4 +87,58 @@
 
 .listePartenaires li{
 	display: inline;	
+}
+
+
+
+/**
+ * Couleurs Blocs
+**/
+/* Presse */
+#block-00a02a7df5afc297876e9901fcb86366-ee41fb6eb678f924a5470b7ac7ab6b2d .title{
+	background-color: #612911;
+	background-image: url(../images/puce-titre-marron.png);
+}
+
+/* Vous aimez */
+#block-df82211322b366f320cbb26172278dd1-3644897aaefb5d0a77ff71f784171f7e .title{
+	background-color: #994785;
+	background-image: url(../images/puce-titre-mauve.png);
+}
+
+/* Partenaires */
+#block-df82211322b366f320cbb26172278dd1-fcf4237e87d763cf578772a96c55f31b .title{
+	background-color: #fd7f04;
+	background-image: url(../images/puce-titre-orange.png);
+}
+
+/* Nouveautés */
+#block-4f6d946ab48d95799d31179c3acde8cb-f17ea6d0150e965eeb4369b482c8e5c1 .title, #block-9e8880eb3c18bc0e08ab030596fd27bd-6b31efe634483c9ece238c209ad44269 .title{
+	background-color: #fd7f04;
+	background-image: url(../images/puce-titre-orange.png);
+}
+
+#block-4f6d946ab48d95799d31179c3acde8cb-f17ea6d0150e965eeb4369b482c8e5c1 article h1, #block-9e8880eb3c18bc0e08ab030596fd27bd-6b31efe634483c9ece238c209ad44269 article h1{
+	color: #fd7f04;
+}
+
+/* Sélection */
+#block-4f6d946ab48d95799d31179c3acde8cb-9838438e3ff28a55fcc5c4db66ae6fa5 .title, #block-9e8880eb3c18bc0e08ab030596fd27bd-320bb6ee09f03e94c0414583a6f78e06 .title{
+	background-color: #8fbc17;
+	background-image: url(../images/puce-titre-vert.png);
+}
+
+#block-4f6d946ab48d95799d31179c3acde8cb-9838438e3ff28a55fcc5c4db66ae6fa5 article h1, #block-9e8880eb3c18bc0e08ab030596fd27bd-320bb6ee09f03e94c0414583a6f78e06 article h1{
+	color: #8fbc17;
+}
+
+
+/* A venir */
+#block-9e8880eb3c18bc0e08ab030596fd27bd-9f23f695074dea4080608bec7bdf419d .title{
+	background-color: #015f86;
+	background-image: url(../images/puce-titre-bleu.png);
+}
+
+#block-9e8880eb3c18bc0e08ab030596fd27bd-9f23f695074dea4080608bec7bdf419d article h1{
+	color: #015f86;
 }
