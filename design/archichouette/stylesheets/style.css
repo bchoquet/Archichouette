@@ -223,3 +223,7 @@ ul.block-contents{
 	z-index: 10;
 }
 
+.cycle span.infos{
+	right: -20px;
+	bottom: -9px;	
+}

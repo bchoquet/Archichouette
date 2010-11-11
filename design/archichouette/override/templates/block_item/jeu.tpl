@@ -23,5 +23,6 @@
 		{/if}
 		</p>
 	</div>
+	<span class="infos rounded-trb">+ d'infos</span>
 </a>
 </article>
