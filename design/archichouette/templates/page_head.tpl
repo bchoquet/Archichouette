@@ -29,7 +29,7 @@
 	<title>{$site_title}</title>
 {/if}
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="shortcut icon" href={"favicon.png"|ezdesign}>
 {* 'core.css','pagelayout.css','content.css',*}
   {ezcss_load( array('debug.css',
                       'websitetoolbar.css',
