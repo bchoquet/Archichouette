@@ -2,21 +2,15 @@
  * 
  */
 jQuery(function(){
+	
 	//slideshow avec jQuery Cycle
-	jQuery(".slideshow").each(function(){
-		var $this = $(this);
-		if($this.find(".slideshow-contents").children().length < 2) return;
-		$this.append('<a href="#" class="prev-arrow"></a><a href="#" class="next-arrow"></a>');
-		$this.find(".slideshow-contents").cycle({
-								height: "400px",
-								next: ".slideshow .next-arrow",
-								prev: ".slideshow .prev-arrow"
-							});
-	});
+	jQuery(".class-jeu .slideshow, .class-event .slideshow").archiCycle({height: 400});
+	jQuery(".block-gallery1 .slideshow").archiCycle({height: 325});
+	jQuery(".block-gallery2 .slideshow").archiCycle({height: 261});
 	
 	
 	//chargement de la google map
-	if(GBrowserIsCompatible && GBrowserIsCompatible() && window.GMapPOIs){
+	if(window.GBrowserIsCompatible != undefined && GBrowserIsCompatible() && window.GMapPOIs){
 		var i, j, pois, mapId, map, geocoder;
 		for(i in window.GMapPOIs){
 			pois = window.GMapPOIs[i];

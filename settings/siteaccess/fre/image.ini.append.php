@@ -37,7 +37,7 @@ Filters[]=geometry/scaledownonly=665;325
 [block_home]
 Reference=
 Filters[]
-Filters[]=geometry/scaledownonly=535;325
+Filters[]=geometry/scaledownonly=535;261
 
 [block_item_home]
 Reference=

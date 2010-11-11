@@ -31,7 +31,7 @@ header #logo{
 
 header #mainNav{
 	position: absolute;
-	bottom: 0;
+	bottom: 1px;
 	left: 300px;	
 }
 

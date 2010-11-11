@@ -11,7 +11,7 @@
 	{/foreach}
 	</div>
 {def $boutique = fetch('content', 'node', hash('node_id', ezini('Nodes', 'Boutique', 'archichouette.ini')))}
-<a class="boutique rounded-tlb" href={$boutique.url_alias|ezurl()}>Entrez dans la boutique</a>
+<a class="boutique rounded-trb" href={$boutique.url_alias|ezurl()}>Entrez dans la boutique</a>
 </div>
 <!-- BLOCK CONTENT: END -->
 <!-- BLOCK: END -->
