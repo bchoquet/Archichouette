@@ -11,8 +11,8 @@
 		{else}
 		    {skip}
 		{/if}
-	</div>
 	{/foreach}
+	</div>
 {/if}
 {if and( is_set( $zones[1].blocks ), $zones[1].blocks|count() )}
 	<div class="middlezone">
@@ -26,8 +26,8 @@
 		{else}
 		    {skip}
 		{/if}
-	</div>
 	{/foreach}
+	</div>
 {/if}
 {if and( is_set( $zones[2].blocks ), $zones[2].blocks|count() )}
 	<div class="bottomzone clearfix">
@@ -41,7 +41,7 @@
 		{else}
 		    {skip}
 		{/if}
-	</div>
 	{/foreach}
+	</div>
 {/if}
 </div>
