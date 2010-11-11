@@ -22,9 +22,6 @@
 }
 
 {include uri='design:page_head.tpl'}
-{if is_set($module_result.node_id)}
-	{include uri="design:parts/opengraph.tpl" node_id=$module_result.node_id}
-{/if}
 </head>
 <!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
 <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
