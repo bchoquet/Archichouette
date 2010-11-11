@@ -227,3 +227,19 @@ ul.block-contents{
 	right: -20px;
 	bottom: -9px;	
 }
+
+
+/**
+ * Calendrier
+**/
+td.ezagenda_month_label{
+	width: 250px;	
+}
+
+td.ezagenda_month_info{
+	padding-bottom: 25px;	
+}
+
+td.ezagenda_month_info p{
+	margin: 0;
+}

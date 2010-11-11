@@ -36,6 +36,21 @@
                 ))
 
 }
+
+{if not($events|count())}
+{* si aucun évènement à venir on charge les 5 derniers évènements *}
+{set $events = fetch( 'content', 'list', hash(
+            'parent_node_id', $event_node_id,
+            'sort_by', array( 'attribute', false(), 'event/from_time'),
+            'class_filter_type',  'include',
+            'class_filter_array', array( 'event' ),
+            'main_node_only', true(),
+            'limit', 5
+            ))
+}
+{set $events = $events|reverse()}
+{/if}
+
 {if $events|count()}
 <section class="content-view-embed class-event-calendar clearfix rounded-rb">
 <h1>{$object.name|wash}</h1>
@@ -50,7 +65,7 @@
 	</a></li>
 {/foreach}
 </ul>
-<a href={$event_node_id|ezurl} class="rounded10-tbl infos">Tous les évènements</a>
+<a href={$event_node.url_alias|ezurl} class="rounded10-tbl infos">Tous les évènements</a>
 </section>
 {/if}
 {undef}

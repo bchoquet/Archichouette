@@ -73,6 +73,7 @@ header #mainNav li a:hover{
 	-webkit-box-shadow: #999 0 5px 5px;
 	box-shadow: #999 0 5px 5px;
 	margin-bottom: 15px;
+	min-height: 450px;
 }
 
 
@@ -186,7 +187,9 @@ section.comments form{
 	background-color: #bdb989;		
 }
 
-
+#sidebarRight section.class-event-calendar p{
+	margin: 0;	
+}
 
 
 
