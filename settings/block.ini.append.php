@@ -1,4 +1,17 @@
 <?php /* #?ini charset="utf-8"?
+[General]
+AllowedTypes[]
+AllowedTypes[]=Gallery
+AllowedTypes[]=ItemList
+AllowedTypes[]=GMap
+AllowedTypes[]=LatestContent
+
+[ItemList]
+Name=Liste d'éléments
+
+[LatestContent]
+Name=Derniers Contenus
+
 [LatestContent]
 NumberOfValidItems=4
 
