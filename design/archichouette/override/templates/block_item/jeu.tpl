@@ -1,6 +1,6 @@
 {* Jeu - Block Item View *}
-<article class="block-item-jeu clearfix">
-<a href={$node.url_alias|ezurl()}>
+<article class="block-item-jeu">
+<a href={$node.url_alias|ezurl()} class="clearfix">
 {if $node.object.data_map.visuels.content.relation_list.0}
 	<div class="visuel">
 	{def $visuelObj = fetch('content', 'object', hash('object_id', $node.object.data_map.visuels.content.relation_list.0.contentobject_id))}
@@ -23,6 +23,5 @@
 		{/if}
 		</p>
 	</div>
-	<span class="infos rounded-trb">+ d'infos</span>
 </a>
 </article>

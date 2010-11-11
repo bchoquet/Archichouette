@@ -17,7 +17,24 @@
 	width: 535px;	
 }
 
+.zone-layout-homeetals .rightcol section{
+	margin-bottom: 30px;	
+}
 
+.block-item-jeu a{
+	text-decoration: none;
+}
+
+.block-item-jeu .visuel{
+	float: left;
+	width: 300px;
+}
+
+.block-item-jeu .jeu-infos{
+	float: right;
+	width: 205px;	
+	color: #000;
+}
 
 
 
@@ -26,3 +43,4 @@
 	width: 375px;
 	height: 340px;	
 }
+

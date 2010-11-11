@@ -11,5 +11,6 @@
 	{/foreach}
 	<!-- BLOCK: END -->
 	</div>
+	<span class="infos rounded-trb">+ d'infos</span>
 </div>
 {undef $valid_nodes}
