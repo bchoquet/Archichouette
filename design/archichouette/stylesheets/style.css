@@ -99,6 +99,7 @@ a.infos, input.button, .block span.infos{
 	font-weight: bold;
 	text-decoration: none;
 	border: 0;
+	display: inline-block;
 }
 
 a.infos, .block span.infos{
@@ -241,4 +242,12 @@ td.ezagenda_month_info{
 
 td.ezagenda_month_info p{
 	margin: 0;
+}
+
+
+/**
+ * Formulaires
+**/
+form div.block, form div.buttonblock{
+	margin: 1em;	
 }
