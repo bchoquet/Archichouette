@@ -140,6 +140,9 @@ a.boutique{
 	padding: 5px;
 	text-align: right;
 	font-size: 20px;
+	-moz-box-shadow: #999 0 2px 2px;
+	-webkit-box-shadow: #999 0 2px 2px;
+	box-shadow: #999 0 2px 2px;
 }
 
 .block{
