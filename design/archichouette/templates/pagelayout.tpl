@@ -57,6 +57,10 @@
   <!--[if lt IE 7 ]>
     <script src={"javascript/dd_belatedpng.js"|ezdesign}></script>
   <![endif]-->
+  <!--[if IE]>
+  	<script src={"javascript/DD_roundies_0.0.2a-min.js"|ezdesign}></script>
+  	<script src={"javascript/iefix.js"|ezdesign}></script>
+  <![endif]-->
 
 {if $html5boilerplate_settings.GoogleAnalyticsKey}
 
