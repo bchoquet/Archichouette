@@ -37,9 +37,6 @@
 
     </header>
 
-	{if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
-		{include uri='design:page_toolbar.tpl'}
-	{/if}
 		{/cache-block}
 		{/cache-block}
 		<div id="main" class="clearfix rounded10">
@@ -49,7 +46,11 @@
 
 		{include uri='design:includes/sidebar.tpl' current_node=$current_node}
 
-	<footer />
+	<footer>
+		{if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
+		{include uri='design:page_toolbar.tpl'}
+	{/if}
+	</footer>
 {ezscript_require(array( 'ezjsc::jquery', 'ezjsc::jqueryio') )}
 
 {ezscript_load( array('jquery.cycle.lite.js', 'launchCycle.js', 'plugins.js', 'script.js') )}
