@@ -2,12 +2,18 @@
  * 
  */
 jQuery(function(){
+	if(Modernizr.textshadow){
+		jQuery("header nav a").archiTitre();
+		jQuery(".block .title").archiTitre();
+		jQuery(".pastille .title").archiTitre();
+	}
 	
 	//slideshow avec jQuery Cycle
 	jQuery(".class-jeu .slideshow, .class-event .slideshow").archiCycle({height: 400});
 	jQuery(".block-gallery1 .slideshow").archiCycle({height: 325});
 	jQuery(".block-gallery2 .slideshow").archiCycle({height: 261});
 	jQuery(".block-itemlist1 .slideshow").archiCycle({height: 200});
+	
 	
 	//liens externes
 	jQuery("a[rel='external']").click(function(){

@@ -128,6 +128,9 @@
 	background-color: #23a0d0;		
 }
 
+.cat-petits .pastille .title .decalage{
+	text-shadow: #23a0d0 0 0 0.2em, #23a0d0 0 1px 0.2em, #23a0d0 1px 1px 0.2em, #23a0d0 0 1px 0.2em, #23a0d0 -1px 1px 0.2em, #23a0d0 -1px 0 0.2em, #23a0d0 -1px -1px 0.2em, #23a0d0 0 -1px 0.2em, #23a0d0 1px -1px 0.2em;	
+}
 
 .cat-famille .categorie{
 	background-color: #8fbc17;
@@ -140,6 +143,10 @@
 
 .cat-famille .pastille .title{
 	background-color: #8fbc17;		
+}
+
+.cat-famille .pastille .title .decalage{
+	text-shadow: #8fbc17 0 0 0.2em, #8fbc17 0 1px 0.2em, #8fbc17 1px 1px 0.2em, #8fbc17 0 1px 0.2em, #8fbc17 -1px 1px 0.2em, #8fbc17 -1px 0 0.2em, #8fbc17 -1px -1px 0.2em, #8fbc17 0 -1px 0.2em, #8fbc17 1px -1px 0.2em;	
 }
 
 
@@ -156,6 +163,10 @@
 	background-color: #561ea1;		
 }
 
+.cat-ambiance .pastille .title .decalage{
+	text-shadow: #561ea1 0 0 0.2em, #561ea1 0 1px 0.2em, #561ea1 1px 1px 0.2em, #561ea1 0 1px 0.2em, #561ea1 -1px 1px 0.2em, #561ea1 -1px 0 0.2em, #561ea1 -1px -1px 0.2em, #561ea1 0 -1px 0.2em, #561ea1 1px -1px 0.2em;	
+}
+
 
 .cat-gds-joueurs .categorie{
 	background-color: #000000;
@@ -168,6 +179,10 @@
 
 .cat-gds-joueurs .pastille .title{
 	background-color: #000000;		
+}
+
+.cat-gds-joueurs .pastille .title .decalage{
+	text-shadow: #000 0 0 0.2em, #000 0 1px 0.2em, #000 1px 1px 0.2em, #000 0 1px 0.2em, #000 -1px 1px 0.2em, #000 -1px 0 0.2em, #000 -1px -1px 0.2em, #000 0 -1px 0.2em, #000 1px -1px 0.2em;
 }
 
 
@@ -184,18 +199,26 @@
 	background-color: #d60c02;		
 }
 
+.cat-duel .pastille .title .decalage{
+	text-shadow: #d60c02 0 0 0.2em, #d60c02 0 1px 0.2em, #d60c02 1px 1px 0.2em, #d60c02 0 1px 0.2em, #d60c02 -1px 1px 0.2em, #d60c02 -1px 0 0.2em, #d60c02 -1px -1px 0.2em, #d60c02 0 -1px 0.2em, #d60c02 1px -1px 0.2em;	
+}
 
-.cat-casse-tete .categorie{
+
+.cat-casse-tetes .categorie{
 	background-color: #f8cd03;
 }
 
-.cat-casse-tete .categorie-exemple h3{
+.cat-casse-tetes .categorie-exemple h3{
 	border-color: #f8cd03;
 	color: #f8cd03;;
 }
 
-.cat-casse-tete .pastille .title{
+.cat-casse-tetes .pastille .title{
 	background-color: #f8cd03;		
+}
+
+.cat-casse-tetes .pastille .title .decalage{
+	text-shadow: #f8cd03 0 0 0.2em, #f8cd03 0 1px 0.2em, #f8cd03 1px 1px 0.2em, #f8cd03 0 1px 0.2em, #f8cd03 -1px 1px 0.2em, #f8cd03 -1px 0 0.2em, #f8cd03 -1px -1px 0.2em, #f8cd03 0 -1px 0.2em, #f8cd03 1px -1px 0.2em;	
 }
 
 
@@ -210,5 +233,9 @@
 
 .cat-coquin .pastille .title{
 	background-color: #ff0190;		
+}
+
+.cat-coquin .pastille .title .decalage{
+	text-shadow: #ff0190 0 0 0.2em, #ff0190 0 1px 0.2em, #ff0190 1px 1px 0.2em, #ff0190 0 1px 0.2em, #ff0190 -1px 1px 0.2em, #ff0190 -1px 0 0.2em, #ff0190 -1px -1px 0.2em, #ff0190 0 -1px 0.2em, #ff0190 1px -1px 0.2em;	
 }
 

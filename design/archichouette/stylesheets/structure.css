@@ -56,9 +56,13 @@ header #mainNav li a:hover{
 	color: #fff;
 }
 
+header #mainNav li a.archiTitre{
+	padding: 2px 0;
+}
 
-
-
+header #mainNav li a.archiTitre:hover .decalage{
+	text-shadow: #83b809 0 0 0.2em, #83b809 0 1px 0.2em, #83b809 1px 1px 0.2em, #83b809 0 1px 0.2em, #83b809 -1px 1px 0.2em, #83b809 -1px 0 0.2em, #83b809 -1px -1px 0.2em, #83b809 0 -1px 0.2em, #83b809 1px -1px 0.2em;
+}
 
 
 /**
@@ -166,6 +170,7 @@ section.comments form{
 	padding: 0 0 20px 15px;
 	text-align: left;
 	margin: -35px 0 0 0;
+	text-shadow: #fff 0 0 0.2em, #fff 0 1px 0.2em, #fff 1px 1px 0.2em, #fff 0 1px 0.2em, #fff -1px 1px 0.2em, #fff -1px 0 0.2em, #fff -1px -1px 0.2em, #fff 0 -1px 0.2em, #fff 1px -1px 0.2em;
 }
 
 #sidebarRight section ul{

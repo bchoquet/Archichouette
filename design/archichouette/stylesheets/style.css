@@ -156,6 +156,15 @@ a.boutique{
 	background: #000 url(../images/puce-titre-noir.png) no-repeat 5px 5px;
 }
 
+.block .title.archiTitre{
+	background-image: none;
+}
+
+.block .title.archiTitre .decalage{
+	padding-left: 25px;
+	background: url(../images/puce-titre-noir.png) no-repeat left top;
+}
+
 ul.block-contents{
 	margin: 0;
 	padding: 0;	
@@ -250,4 +259,22 @@ td.ezagenda_month_info p{
 **/
 form div.block, form div.buttonblock{
 	margin: 1em;	
+}
+
+
+
+/**
+ * Archititre
+**/
+.archiTitre{
+	display: block;
+	position: relative;	
+}
+
+.archiTitre .decalage{
+	display: block;
+	position: absolute;
+	right: -5px;
+	top: -5px;
+	text-shadow: #000 0 0 0.2em, #000 0 1px 0.2em, #000 1px 1px 0.2em, #000 0 1px 0.2em, #000 -1px 1px 0.2em, #000 -1px 0 0.2em, #000 -1px -1px 0.2em, #000 0 -1px 0.2em, #000 1px -1px 0.2em;
 }

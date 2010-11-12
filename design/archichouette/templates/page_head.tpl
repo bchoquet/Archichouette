@@ -37,7 +37,7 @@
                       ezini( 'StylesheetSettings', 'FrontendCSSFileList', 'design.ini' ) ))}
 
 <link rel="apple-touch-icon" href={"apple-touch-icon.png"|ezdesign}>
-<script src={"javascript/modernizr-1.5.min.js"|ezdesign}></script>
+<script src={"javascript/modernizr-1.6.min.js"|ezdesign}></script>
 
 {* check if we need a http-equiv refresh *}
 {if $site.redirect}
