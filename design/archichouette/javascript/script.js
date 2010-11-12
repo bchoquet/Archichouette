@@ -9,6 +9,11 @@ jQuery(function(){
 	jQuery(".block-gallery2 .slideshow").archiCycle({height: 261});
 	jQuery(".block-itemlist1 .slideshow").archiCycle({height: 200});
 	
+	//liens externes
+	jQuery("a[rel='external']").click(function(){
+		window.open(this.href, '_blank');
+		return false;
+	});
 	
 	//chargement de la google map
 	if(window.GBrowserIsCompatible != undefined && GBrowserIsCompatible() && window.GMapPOIs){
