@@ -1,4 +1,4 @@
-<div class="newsletter newsletter-subscribe">
+<section class="newsletter newsletter-subscribe rounded">
 
     {def $newsletter_root_node_id = ezini( 'NewsletterSettings', 'RootFolderNodeId', 'cjw_newsletter.ini' )
          $available_output_formats = 2
@@ -34,27 +34,11 @@
 
         <form name="subscribe" method="post" action={'/newsletter/subscribe/'|ezurl}>
 
-            {* warnings *}
-            {if and( is_set( $warning_array ), $warning_array|count|ne( 0 ) )}
-            <div class="block">
-                <div class="message-warning">
-                    <h2>Certaines informations sont incorrectes</h2>
-                    <ul>
-                    {foreach $warning_array as $message_array_item}
-                        <li><span class="key">{$message_array_item.field_key|wash}: </span><span class="text">{$message_array_item.message|wash()}</span></li>
-                    {/foreach}
-                    </ul>
-                </div>
-            </div>
-            {/if}
 
-            <div class="block">
                 <p>
                     pour être tenu au courant des nouveautés et animations de la boutique
                 </p>
-            </div>
 
-            <div class="block">
                 {foreach $newsletter_system_node_list as $system_node}
 
                     {def $newsletter_list_node_list = fetch( 'content', 'tree',
@@ -95,20 +79,14 @@
 
                     {undef $newsletter_list_node_list}
                 {/foreach}
-            </div>
 
             {* Email. *}
-            <div class="block">
-                <label for="Subscription_Email">{"E-mail"|i18n( 'cjw_newsletter/subscribe' )}*:</label>
+                <label for="Subscription_Email">Email</label>
                 <input class="halfbox" id="Subscription_Email" type="text" name="Subscription_Email" value="{cond( and( is_set( $user ), $subscription_data_array['email']|eq('') ), $user.email|wash(), $subscription_data_array['email']|wash )}" title="{'Email of the subscriber.'|i18n( 'cjw_newsletter/subscribe' )}" />
-            </div>
-
-            <div class="block">
+                <input class="button rounded10" type="submit" name="SubscribeButton" value="OK" />
                 <input type="hidden" name="BackUrlInput" value="{cond( ezhttp_hasvariable('BackUrlInput'), ezhttp('BackUrlInput'), 'newsletter/subscribe'|ezurl('no'))}" />
-                <input class="button" type="submit" name="SubscribeButton" value="OK" />
-            </div>
 
         </form>
     {/if}
 
-</div>
+</section>

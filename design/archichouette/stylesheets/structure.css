@@ -197,6 +197,39 @@ section.comments form{
 }
 
 
+#sidebarRight section.newsletter{
+	font-size: 10px;
+	color: #C1D702;
+}
+
+#sidebarRight section.newsletter label{
+	color: #fff;
+}
+
+#sidebarRight section.newsletter input.halfbox{
+	width: 95px;
+	margin-right: 5px;
+	font-size: 8px;
+}
+
+#sidebarRight section.newsletter input.button{
+	padding: 2px 0;
+	background-color: #fff;
+	color: #000;
+}
+
+#sidebarRight section#vousaimez{
+	background-color: #994785;
+	color: #fff;
+}
+
+#sidebarRight section#vousaimez p{
+	font-family: AllerDisplayRegular, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+}
 
 /**
  * FOOTER

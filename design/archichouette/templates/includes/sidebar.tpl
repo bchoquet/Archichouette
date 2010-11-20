@@ -5,7 +5,7 @@
 		<!-- deguise la chouette -->
 		<!-- facebook -->
 		<!-- newsletter -->
-		{include uri="design:newsletter/subscribe.tpl"}
+		{include uri="design:newsletter/subscribe_sidebar.tpl"}
 
 		{include uri="design:includes/recommandations.tpl"}
 	</aside>
