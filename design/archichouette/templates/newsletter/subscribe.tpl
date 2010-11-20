@@ -1,4 +1,4 @@
-<div class="newsletter newsletter-subscribe">
+<section class="newsletter newsletter-subscribe rounded">
 
     {def $newsletter_root_node_id = ezini( 'NewsletterSettings', 'RootFolderNodeId', 'cjw_newsletter.ini' )
          $available_output_formats = 2
@@ -20,7 +20,7 @@
                                                                  'limitation', hash() )
                                                        )}
 
-    <h1>Inscription à la Newsletter</h1>
+    <h1>Newsletter</h1>
 
 
     {* check if nl system is available *}
@@ -50,7 +50,7 @@
 
             <div class="block">
                 <p>
-                    Pour vous inscrire à la newsletter, merci de saisir votre adresse email ci-dessous :
+                    pour être tenu au courant des nouveautés et animations de la boutique
                 </p>
             </div>
 
@@ -105,7 +105,7 @@
 
             <div class="block">
                 <input type="hidden" name="BackUrlInput" value="{cond( ezhttp_hasvariable('BackUrlInput'), ezhttp('BackUrlInput'), 'newsletter/subscribe'|ezurl('no'))}" />
-                <input class="button" type="submit" name="SubscribeButton" value="M'inscrire" />
+                <input class="button" type="submit" name="SubscribeButton" value="OK" />
             </div>
 
             <br />
@@ -114,4 +114,4 @@
         </form>
     {/if}
 
-</div>
+</section>
