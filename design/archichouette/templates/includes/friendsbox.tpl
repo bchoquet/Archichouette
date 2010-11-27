@@ -1,0 +1,2 @@
+﻿<section id="facebook">
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FLyon-France%2FArchi-Chouette%2F331035361083&amp;width=200&amp;colorscheme=light&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:255px;" allowTransparency="false"></iframe></section>

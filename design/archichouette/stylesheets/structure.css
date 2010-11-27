@@ -158,6 +158,12 @@ section.comments form{
 	position: relative;
 }
 
+#sidebarRight section#facebook{
+	margin-top: -35px;
+	background-color: #fff;
+	padding: 0;
+}
+
 #sidebarRight section a{
 	color: #fff;
 }
