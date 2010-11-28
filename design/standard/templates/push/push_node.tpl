@@ -100,9 +100,7 @@ var ngpush_text_maxlength_error = "{"Message is too long!"|i18n("ngpush/status")
 						'http://',$SiteURL,'/content/download/',
 						$image_node.data_map.image.contentobject_id,
 						'/',
-						$image_node.data_map.image.id,
-						'/file/',
-						$image_node.data_map.image.content.original_filename
+						$image_node.data_map.image.id
 					)
 				}
 			{/if}
