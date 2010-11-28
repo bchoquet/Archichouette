@@ -22,7 +22,7 @@ AliasList[]=block_item_home
 [small]
 Reference=
 Filters[]
-Filters[]=geometry/scaledownonly=160;80
+Filters[]=geometry/scaledownonly=160;160
 
 [medium]
 Reference=
