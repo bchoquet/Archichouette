@@ -1,7 +1,7 @@
 <?php /* #?ini charset="utf-8"?
 
 [PushNodeSettings]
-SiteURL=www.benjamin-choquet.fr/archichouette/index.php?/fre
+SiteURL=www.archi-chouette.fr
 ConnectURL=push.netgen.hr
 Blocks[]
 Blocks[]=facebook
@@ -9,7 +9,7 @@ ActiveBlocks[]
 ActiveBlocks[]=facebook
 
 [facebook]
-Id=173626272667499
+Id=331035361083
 attrId_name[]
 attrId_name[jeu]=title
 attrId_name[event]=title

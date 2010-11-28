@@ -1,4 +1,4 @@
-{def $key = $block.custom_attributes.key
+{def $key = ezini('GoogleMaps', 'Key', 'archichouette.ini')
      $location = $block.custom_attributes.location}
 
 

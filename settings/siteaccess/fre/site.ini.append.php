@@ -7,9 +7,8 @@ SessionNamePerSiteAccess=disabled
 
 [SiteSettings]
 SiteName=Archichouette
-SiteURL=www.benjamin-choquet.fr/archichouette/index.php?/fre
+SiteURL=www.archi-chouette.fr
 LoginPage=embedded
-AdditionalLoginFormActionURL=http://www.benjamin-choquet.fr/archichouette/index.php?/admin_archi/user/login
 
 [UserSettings]
 RegistrationEmail=
@@ -42,6 +41,6 @@ TextTranslation=enabled
 TranslationList=
 
 [MailSettings]
-AdminEmail=bchoquet@gmail.com
+AdminEmail=contact@archichouette.com
 EmailSender=
 */ ?>

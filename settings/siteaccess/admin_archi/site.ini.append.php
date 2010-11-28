@@ -5,7 +5,7 @@ EmailReceiver=
 
 [SiteSettings]
 SiteName=Archichouette
-SiteURL=www.benjamin-choquet.fr/archichouette/index.php?
+SiteURL=admin.archi-chouette.fr
 DefaultPage=content/dashboard
 LoginPage=custom
 
