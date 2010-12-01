@@ -1,4 +1,4 @@
-{* Categorie - Full view *}
+﻿{* Categorie - Full view *}
 <article class="content-view-full class-categorie cat-{ezini('CategoriesJeu', $node.node_id, 'archichouette.ini')} clearfix">
 
 	<div class="categorie-contents">
@@ -12,9 +12,11 @@
 	{if and($node.data_map.jeu_exemple.has_content, $node.data_map.jeu_exemple.content.data_map.visuels.content.relation_list|count())}
 	<div class="categorie-exemple rounded-bl block-contents">
 		<h3 class="rounded">Exemple</h3>
+		<a href={$node.data_map.jeu_exemple.content.main_node.url_alias|ezurl} title="{$node.data_map.jeu_exemple.content.main_node.name|wash}">
    		{def $visuelObj = fetch('content', 'object', hash('object_id', $node.data_map.jeu_exemple.content.data_map.visuels.content.relation_list.0.contentobject_id))}
 		{content_view_gui content_object=$visuelObj view=embed object_parameters=hash('size', 'medium')}
 		{undef $visuelObj}
+		</a>
 	</div>
 	{/if}
 
@@ -22,14 +24,19 @@
 		{def $jeux = fetch('content', 'list', hash(
 			'parent_node_id', $node.node_id,
 			'class_filter_type', 'include',
-			'class_filter_array', array('jeu')
+			'class_filter_array', array('jeu'),
+			'limit', 4,
+			'sort_by', $node.sort_array
 		))}
 		{if $jeux}
+		<section class="selection-jeux">
+		<h1>S&eacute;lection</h1>
 		<ul class="listeJeux">
 			{foreach $jeux as $jeu}
 			<li>{node_view_gui content_node=$jeu view='line'}</li>
 			{/foreach}
 		</ul>
+		</section>
 		{/if}
 	{/if}
 </article>

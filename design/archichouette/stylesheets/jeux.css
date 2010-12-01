@@ -46,8 +46,16 @@
 	transform:rotate(-10deg);
 }
 
+.class-categorie .selection-jeux{
+	clear: both;
+}
+
+.class-categorie .selection-jeux h1{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
 .class-categorie .listeJeux{
-	clear: both;	
 	margin: 0;
 	padding: 0;
 }
