@@ -8,7 +8,7 @@
 		)
 }
 
-<a href={$front_page.url_alias|ezurl} id="logo"><img src={'images/logo.png'|ezdesign} alt="Archichouette" class="logo" /></a>
+<a href={$front_page.url_alias|ezurl} id="logo"><img src={'images/logo_noel.png'|ezdesign} alt="Archichouette" class="logo" /></a>
 
 <nav id="mainNav">
 <ul>
