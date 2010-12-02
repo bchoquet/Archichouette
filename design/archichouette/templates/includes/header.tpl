@@ -3,7 +3,7 @@
 			'parent_node_id', $front_page.node_id,
 			'depth',1,
 			'class_filter_type', 'include',
-			'class_filter_array', array('folder', 'frontpage')
+			'class_filter_array', array('frontpage')
 			)
 		)
 }

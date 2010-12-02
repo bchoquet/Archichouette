@@ -46,8 +46,9 @@
 
 		{include uri='design:includes/sidebar.tpl' current_node=$current_node}
 
-	<footer>
-		{if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
+	<footer class="clearfix">
+	{include uri="design:includes/footer.tpl"}
+	{if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
 		{include uri='design:page_toolbar.tpl'}
 	{/if}
 	</footer>

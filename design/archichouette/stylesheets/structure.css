@@ -158,6 +158,10 @@ section.comments form{
 	position: relative;
 }
 
+#sidebarRight section:last-child{
+	margin-bottom: 0;
+}
+
 #sidebarRight section#facebook{
 	margin-top: -35px;
 	background-color: #fff;
@@ -242,5 +246,28 @@ section.comments form{
 **/
 footer{
 	clear: both;	
-	margin: 15px 0;
+	margin: 5px 0;
+	padding-right: 220px;
+}
+
+footer #rppp{
+	float: left;
+}
+
+footer #voisins{
+	float: right;
+	width: 550px;
+	margin-top: 25px;
+}
+
+footer #voisins h1{
+	font-size: 12px;
+	font-family: AllerRegular, sans-serif;
+	float: left;
+	margin-top: 17px;
+	margin-right: 20px;
+}
+footer #voisins li{
+	float: left;
+	margin-right: 20px;
 }

@@ -42,7 +42,7 @@ Filters[]=geometry/scaledownonly=535;261
 [block_item_home]
 Reference=
 Filters[]
-Filters[]=geometry/scaledownonly=300;200
+Filters[]=geometry/scaledownonly=300;300
 
 
 [rss]
