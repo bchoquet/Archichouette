@@ -23,6 +23,7 @@
 <!--[if IE]><![endif]-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="generator" content="eZ Publish" />
+<meta name="google-site-verification" content="{$html5boilerplate_settings[VerifyKey]}" />
 {if $meta.title}
 	<title>{$meta.title|wash}</title>
 {else}
