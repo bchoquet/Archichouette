@@ -159,20 +159,20 @@
 
 
 .cat-ambiance .categorie{
-	background-color: #561ea1;
+	background-color: #f8cd03;
 }
 
 .cat-ambiance .categorie-exemple h3{
-	border-color: #561ea1;
-	color: #561ea1;;
+	border-color: #f8cd03;
+	color: #f8cd03;;
 }
 
 .cat-ambiance .pastille .title{
-	background-color: #561ea1;		
+	background-color: #f8cd03;		
 }
 
 .cat-ambiance .pastille .title .decalage{
-	text-shadow: #561ea1 0 0 0.2em, #561ea1 0 1px 0.2em, #561ea1 1px 1px 0.2em, #561ea1 0 1px 0.2em, #561ea1 -1px 1px 0.2em, #561ea1 -1px 0 0.2em, #561ea1 -1px -1px 0.2em, #561ea1 0 -1px 0.2em, #561ea1 1px -1px 0.2em;	
+	text-shadow: #f8cd03 0 0 0.2em, #f8cd03 0 1px 0.2em, #f8cd03 1px 1px 0.2em, #f8cd03 0 1px 0.2em, #f8cd03 -1px 1px 0.2em, #f8cd03 -1px 0 0.2em, #f8cd03 -1px -1px 0.2em, #f8cd03 0 -1px 0.2em, #f8cd03 1px -1px 0.2em;	
 }
 
 
@@ -213,20 +213,20 @@
 
 
 .cat-casse-tetes .categorie{
-	background-color: #f8cd03;
+	background-color: #561ea1;
 }
 
 .cat-casse-tetes .categorie-exemple h3{
-	border-color: #f8cd03;
-	color: #f8cd03;;
+	border-color: #561ea1;
+	color: #561ea1;;
 }
 
 .cat-casse-tetes .pastille .title{
-	background-color: #f8cd03;		
+	background-color: #561ea1;		
 }
 
 .cat-casse-tetes .pastille .title .decalage{
-	text-shadow: #f8cd03 0 0 0.2em, #f8cd03 0 1px 0.2em, #f8cd03 1px 1px 0.2em, #f8cd03 0 1px 0.2em, #f8cd03 -1px 1px 0.2em, #f8cd03 -1px 0 0.2em, #f8cd03 -1px -1px 0.2em, #f8cd03 0 -1px 0.2em, #f8cd03 1px -1px 0.2em;	
+	text-shadow: #561ea1 0 0 0.2em, #561ea1 0 1px 0.2em, #561ea1 1px 1px 0.2em, #561ea1 0 1px 0.2em, #561ea1 -1px 1px 0.2em, #561ea1 -1px 0 0.2em, #561ea1 -1px -1px 0.2em, #561ea1 0 -1px 0.2em, #561ea1 1px -1px 0.2em;	
 }
 
 
