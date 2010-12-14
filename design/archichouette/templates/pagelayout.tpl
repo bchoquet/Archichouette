@@ -54,7 +54,7 @@
 	</footer>
 {ezscript_require(array( 'ezjsc::jquery', 'ezjsc::jqueryio') )}
 
-{ezscript_load( array('jquery.cycle.lite.js', 'launchCycle.js', 'titres-decales.js', 'plugins.js', 'script.js') )}
+{ezscript_load( array('jquery.cycle.min.js', 'launchCycle.js', 'titres-decales.js', 'plugins.js', 'script.js') )}
 
   <!--[if lt IE 7 ]>
     <script src={"javascript/dd_belatedpng.js"|ezdesign}></script>

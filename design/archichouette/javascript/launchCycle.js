@@ -9,7 +9,7 @@
 			if($this.find(".slideshow-contents").children().length < 2) return;
 			$this.addClass('cycle').append('<a href="#" class="prev-arrow"></a><a href="#" class="next-arrow"></a>');
 			$this.find(".slideshow-contents").cycle({
-									height: config.height+"px",
+									//height: config.height+"px",
 									next: ".slideshow .next-arrow",
 									prev: ".slideshow .prev-arrow"
 								});
