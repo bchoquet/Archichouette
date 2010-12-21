@@ -46,7 +46,7 @@ Subdir=templates
 Match[class_identifier]=categorie
 
 [line_categorie]
-Source=node/view/line.tpl
+Source=node/view/pastille.tpl
 MatchFile=line/categorie.tpl
 Subdir=templates
 Match[class_identifier]=categorie

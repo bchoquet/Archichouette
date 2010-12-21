@@ -39,6 +39,7 @@ TextTranslation=enabled
 
 [ContentSettings]
 TranslationList=
+ComplexDisplayViewModes=pastille
 
 [MailSettings]
 AdminEmail=contact@archichouette.com

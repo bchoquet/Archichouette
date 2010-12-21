@@ -8,7 +8,7 @@
 {if $cats|count()}
 <ul class="listeFamilles">
 	{foreach $cats as $cat}
-		<li class="cat-{ezini('CategoriesJeu', $cat.node_id, 'archichouette.ini')}">{node_view_gui content_node=$cat view='line'}</li>
+		<li class="cat-{ezini('CategoriesJeu', $cat.node_id, 'archichouette.ini')}">{node_view_gui content_node=$cat view='pastille'}</li>
 	{/foreach}
 </ul>
 {/if}
