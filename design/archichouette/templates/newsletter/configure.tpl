@@ -11,7 +11,7 @@
          <p>Vous êtes bien inscrit à la newsletter</p>
     </div>
 
-    {else if is_set( $changes_saved )}
+    {elseif is_set( $changes_saved )}
     <div class="message-feedback">
         <p>Vous êtes bien inscrit à la newsletter</p>
     </div>
