@@ -215,7 +215,6 @@ Source=block/view/view.tpl
 MatchFile=block/latest_content.tpl
 Subdir=templates
 Match[type]=LatestContent
-Match[view]=latest_content
 
 [block_top_rated]
 Source=block/view/view.tpl
@@ -250,7 +249,6 @@ Source=block/view/view.tpl
 MatchFile=block/itemlist1.tpl
 Subdir=templates
 Match[type]=ItemList
-Match[view]=itemlist1
 
 [block_itemlist2]
 Source=block/view/view.tpl

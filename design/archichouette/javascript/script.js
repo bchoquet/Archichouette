@@ -12,7 +12,7 @@ jQuery(function(){
 	jQuery(".class-jeu .slideshow, .class-event .slideshow").archiCycle({height: 400});
 	jQuery(".block-gallery1 .slideshow").archiCycle({height: 325});
 	jQuery(".block-gallery2 .slideshow").archiCycle({height: 261});
-	jQuery(".block-itemlist1 .slideshow").archiCycle({height: 200});
+	jQuery(".block-ItemList .slideshow").archiCycle({height: 200});
 	
 	
 	//liens externes

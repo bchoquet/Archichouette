@@ -8,12 +8,42 @@ AllowedTypes[]=LatestContent
 
 [ItemList]
 Name=Liste d'éléments
+ViewList[]
+ViewList[]=noir
+ViewList[]=orange
+ViewList[]=marron
+ViewList[]=vert
+ViewList[]=bleu
+ViewList[]=mauve
+
+ViewName[]
+ViewName[noir]=Noir
+ViewName[orange]=Orange
+ViewName[marron]=Marron
+ViewName[vert]=Vert
+ViewName[bleu]=Bleu
+ViewName[mauve]=Mauve
 
 [LatestContent]
 Name=Derniers Contenus
-
-[LatestContent]
 NumberOfValidItems=4
+
+ViewList[]
+ViewList[]=noir
+ViewList[]=orange
+ViewList[]=marron
+ViewList[]=vert
+ViewList[]=bleu
+ViewList[]=mauve
+
+ViewName[]
+ViewName[noir]=Noir
+ViewName[orange]=Orange
+ViewName[marron]=Marron
+ViewName[vert]=Vert
+ViewName[bleu]=Bleu
+ViewName[mauve]=Mauve
+
 
 [Gallery]
 Name=Diaporama (Manuel)
