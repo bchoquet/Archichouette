@@ -36,6 +36,18 @@
 	color: #000;
 }
 
+.block-item-article{
+	position: relative;	
+}
+
+.block-item-article h1{
+	margin: 0.5em 0;
+}
+
+.block-item-article .visuel{
+	float: left;
+	width: 200px;
+}
 
 /**
  * BOUTIQUE
@@ -109,6 +121,7 @@
 	background: url(../images/puce-titre-marron.png) no-repeat left top;
 	text-shadow: #612911 0 0 0.2em, #612911 0 1px 0.2em, #612911 1px 1px 0.2em, #612911 0 1px 0.2em, #612911 -1px 1px 0.2em, #612911 -1px 0 0.2em, #612911 -1px -1px 0.2em, #612911 0 -1px 0.2em, #612911 1px -1px 0.2em;
 }
+
 
 
 /* Vous aimez */
